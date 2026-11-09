@@ -80,7 +80,6 @@ export type Project = {
   hue: number; // drives the colour of the project's cover art
 };
 
-// TIP: replace the GitHub profile links below with each project's repository URL.
 export const projects: Project[] = [
   {
     name: "EventBuzzer",
@@ -106,7 +105,7 @@ export const projects: Project[] = [
       "JWT authentication, Redux state management, social interactions and admin dashboards for user and report management.",
     ],
     tags: ["Socket.IO", "PeerJS", "WebRTC", "Redux", "JWT"],
-    link: "https://github.com/sterinpaul",
+    link: "https://github.com/sterinpaul/Pulz-Social-media",
     linkLabel: "GitHub",
     hue: 265,
   },
@@ -120,7 +119,7 @@ export const projects: Project[] = [
       "Product listing, cart, discount coupons, checkout and orders, plus admin management for inventory, users, categories and coupons.",
     ],
     tags: ["Node.js", "Express", "MongoDB", "Razorpay"],
-    link: "https://github.com/sterinpaul",
+    link: "https://github.com/sterinpaul/E-Commerce-Website",
     linkLabel: "GitHub",
     hue: 22,
   },
@@ -134,7 +133,7 @@ export const projects: Project[] = [
       "Drag-and-drop task management and dynamic header configuration.",
     ],
     tags: ["Role-based auth", "Permissions", "Drag & drop"],
-    link: "https://github.com/sterinpaul",
+    link: "https://github.com/sterinpaul/ProManage-DoStudio",
     linkLabel: "GitHub",
     hue: 190,
   },
