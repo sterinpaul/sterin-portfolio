@@ -96,18 +96,18 @@ export const projects: Project[] = [
     hue: 82,
   },
   {
-    name: "Pulz",
-    kind: "Social media app",
+    name: "ProManage",
+    kind: "Task manager app",
     summary:
-      "A real-time social platform with chat, notifications and video calling, plus admin tooling for moderation.",
+      "A task management tool designed for scalable team workflows with fine-grained access control.",
     points: [
-      "Real-time text, emoji and image chat and notifications with Socket.IO; video calls with PeerJS.",
-      "JWT authentication, Redux state management, social interactions and admin dashboards for user and report management.",
+      "Role-based authentication with permission management.",
+      "Drag-and-drop task management and dynamic header configuration.",
     ],
-    tags: ["Socket.IO", "PeerJS", "WebRTC", "Redux", "JWT"],
-    link: "https://github.com/sterinpaul/Pulz-Social-media",
+    tags: ["Role-based auth", "Permissions", "Drag & drop"],
+    link: "https://github.com/sterinpaul/ProManage-DoStudio",
     linkLabel: "GitHub",
-    hue: 265,
+    hue: 190,
   },
   {
     name: "BigShopper",
@@ -124,18 +124,18 @@ export const projects: Project[] = [
     hue: 22,
   },
   {
-    name: "ProManage",
-    kind: "Task manager app",
+    name: "Pulz",
+    kind: "Social media app",
     summary:
-      "A task management tool designed for scalable team workflows with fine-grained access control.",
+      "A real-time social platform with chat, notifications and video calling, plus admin tooling for moderation.",
     points: [
-      "Role-based authentication with permission management.",
-      "Drag-and-drop task management and dynamic header configuration.",
+      "Real-time text, emoji and image chat and notifications with Socket.IO; video calls with PeerJS.",
+      "JWT authentication, Redux state management, social interactions and admin dashboards for user and report management.",
     ],
-    tags: ["Role-based auth", "Permissions", "Drag & drop"],
-    link: "https://github.com/sterinpaul/ProManage-DoStudio",
+    tags: ["Socket.IO", "PeerJS", "WebRTC", "Redux", "JWT"],
+    link: "https://github.com/sterinpaul/Pulz-Social-media",
     linkLabel: "GitHub",
-    hue: 190,
+    hue: 265,
   },
 ];
 
