@@ -7,7 +7,7 @@ const display = Space_Grotesk({ subsets: ["latin"], weight: ["400", "500", "700"
 const body = Inter({ subsets: ["latin"], variable: "--font-body" });
 const mono = JetBrains_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-mono" });
 
-const title = `${profile.name} — ${profile.role}`;
+const title = `${profile.name} | ${profile.role}`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(profile.siteUrl),
