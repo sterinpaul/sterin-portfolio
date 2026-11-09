@@ -110,6 +110,20 @@ export const projects: Project[] = [
     hue: 190,
   },
   {
+    name: "Pulz",
+    kind: "Social media app",
+    summary:
+    "A real-time social platform with chat, notifications and video calling, plus admin tooling for moderation.",
+    points: [
+      "Real-time text, emoji and image chat and notifications with Socket.IO; video calls with PeerJS.",
+      "JWT authentication, Redux state management, social interactions and admin dashboards for user and report management.",
+    ],
+    tags: ["Socket.IO", "PeerJS", "WebRTC", "Redux", "JWT"],
+    link: "https://github.com/sterinpaul/Pulz-Social-media",
+    linkLabel: "GitHub",
+    hue: 265,
+  },
+  {
     name: "BigShopper",
     kind: "E-commerce app",
     summary:
@@ -122,21 +136,7 @@ export const projects: Project[] = [
     link: "https://github.com/sterinpaul/E-Commerce-Website",
     linkLabel: "GitHub",
     hue: 22,
-  },
-  {
-    name: "Pulz",
-    kind: "Social media app",
-    summary:
-      "A real-time social platform with chat, notifications and video calling, plus admin tooling for moderation.",
-    points: [
-      "Real-time text, emoji and image chat and notifications with Socket.IO; video calls with PeerJS.",
-      "JWT authentication, Redux state management, social interactions and admin dashboards for user and report management.",
-    ],
-    tags: ["Socket.IO", "PeerJS", "WebRTC", "Redux", "JWT"],
-    link: "https://github.com/sterinpaul/Pulz-Social-media",
-    linkLabel: "GitHub",
-    hue: 265,
-  },
+  }
 ];
 
 export const skills = {
