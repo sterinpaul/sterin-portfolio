@@ -18,7 +18,7 @@ export default function Contact() {
           <h2 className="contact__title">
             Let’s build
             <br />
-            something <span className="accent">rare.</span>
+            something <span className="accent">rare</span>
           </h2>
         </Reveal>
 

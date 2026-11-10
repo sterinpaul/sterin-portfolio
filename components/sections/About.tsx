@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Reveal from "@/components/Reveal";
 import { education, profile } from "@/data/profile";
 
@@ -12,9 +13,21 @@ export default function About() {
         </div>
 
         <div className="about">
-          <Reveal>
-            <p className="about__lead">{profile.about.lead}</p>
-          </Reveal>
+          <div className="about__main">
+            <Reveal>
+              <p className="about__lead">{profile.about.lead}</p>
+            </Reveal>
+            <Reveal delay={120}>
+              <Image
+                src="/me.png"
+                alt={`Portrait of ${profile.name}`}
+                width={1696}
+                height={2326}
+                sizes="(max-width: 900px) 80vw, 360px"
+                className="about__photo"
+              />
+            </Reveal>
+          </div>
 
           <div className="about__side">
             {profile.about.body.map((para, i) => (

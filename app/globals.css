@@ -526,6 +526,21 @@ main {
   letter-spacing: -0.015em;
   text-shadow: 0 2px 40px rgba(8, 8, 10, 0.7);
 }
+.about__main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.about__photo {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 16px;
+  filter: grayscale(0.2);
+}
 .about__side {
   display: flex;
   flex-direction: column;
@@ -604,6 +619,11 @@ main {
 @media (max-width: 900px) {
   .about {
     grid-template-columns: 1fr;
+  }
+  .about__photo {
+    display: block;
+    margin-inline: auto;
+    max-width: 280px;
   }
   .stats {
     grid-template-columns: 1fr;
