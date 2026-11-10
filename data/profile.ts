@@ -88,9 +88,9 @@ export const projects: Project[] = [
       "A platform for discovering upcoming festivals, cultural events and community happenings - filterable by district, category, date and search.",
     points: [
       "Android app built with React Native and Expo: featured and trending events, category exploration and rich event details.",
-      "Image galleries, sharing, map directions, Google Calendar integration and notification workflows.",
+      "Image galleries, sharing, map directions, Calendar integration and notification workflows.",
     ],
-    tags: ["React Native", "Expo", "Google Calendar", "Maps", "Notifications"],
+    tags: ["React Native", "Expo", "Calendar", "Maps", "Notifications"],
     link: "https://eventbuzzer.in",
     linkLabel: "eventbuzzer.in",
     hue: 82,
